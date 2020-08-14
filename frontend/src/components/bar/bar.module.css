@@ -1,0 +1,65 @@
+.bar {
+    display: grid;
+    position: fixed;
+    overflow-y: auto;
+    background: white;
+    border-radius: 5px;
+    width: 25em;
+    max-height: 99%;
+}
+
+.navigation {
+    padding: 0.7em;
+}
+
+.navigationSettings {
+    display: flex;
+}
+
+.radioButtons {
+    margin: 0;
+    position: relative;
+    top: 60%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.stop {
+    display: flex;
+}
+
+.stopTextField {
+    width: 100%;
+    height: 2.5em;
+}
+
+.buttonGroup {
+    display: flex;
+}
+
+.buttonContainer {
+    width: 100%;
+}
+
+.go {
+    margin-top: .1em !important;
+    font-size: medium !important;
+    text-transform: none !important;
+    background: #4285f4 !important;
+    color: white !important;
+    width: 95%;
+    float: right;
+}
+
+.reset {
+    margin-top: .1em !important;
+    font-size: medium !important;
+    text-transform: none !important;
+    background: #e6e6e6 !important;
+    width: 95%;
+}
+
+.timeDistanceText {
+    margin-top: 0.7em;
+    text-align: center;
+}

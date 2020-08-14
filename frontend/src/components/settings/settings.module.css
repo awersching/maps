@@ -1,0 +1,15 @@
+.settings {
+    width: 90%;
+}
+
+.settingsButton {
+    margin-top: .1em !important;
+    font-size: medium !important;
+    text-transform: none !important;
+    background: white !important;
+    width: 90%;
+}
+
+.import {
+    display: none;
+}
